@@ -2,9 +2,9 @@ import tensorflow as tf
 import os
 
 # Define dataset directory paths
-train_dir = "C:/Users/Marinelle/Desktop/DiseaseDiagnosis/chest-xray-pneumonia/chest_xray/train"
-test_dir = "C:/Users/Marinelle/Desktop/DiseaseDiagnosis/chest-xray-pneumonia/chest_xray/test"
-val_dir = "C:/Users/Marinelle/Desktop/DiseaseDiagnosis/chest-xray-pneumonia/chest_xray/val"
+train_dir = "C:/Users/Mabelle/Desktop/DiseaseDiagnosis/chest-xray-pneumonia/chest_xray/train"
+test_dir = "C:/Users/Mabelle/Desktop/DiseaseDiagnosis/chest-xray-pneumonia/chest_xray/test"
+val_dir = "C:/Users/Mabelle/Desktop/DiseaseDiagnosis/chest-xray-pneumonia/chest_xray/val"
 
 # Verify if the directories exist
 print(f"Train Directory exists: {os.path.exists(train_dir)}")
